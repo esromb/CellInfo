@@ -7,9 +7,6 @@ public class CellInfo {
 	}
 	
 	public static String cellInfo(int n) {
-//	      		A          B      C ……….              Z.    AA     AB            AZ     BA                         zz
-//	      1     1          2      3                   26    27     28            52     53       			      702
-//	      2    703                                   728    729                          			             1404 
 		int row = n/703;
 		boolean leftside = n <= (row * 702) + 26;
 		StringBuilder builder = new StringBuilder();
