@@ -3,6 +3,6 @@ GIVEN:
 	R            A          B      C . . . .            Z     AA     AB            AZ     BA                              ZZ
 	O      1     1          2      3 . . . .            26    27     28            52     53       			      702
 	W      2    703         704    705. . . .          728    729    730           754    755       		     1404 
-  S
+        S
   GIVEN CELL NUMBER RETURN THE INTERESECTION OF ROW AND COLUMN
     E.G. cellInfo(1) returns 1A, cellInfo(2) --1B, cellInfo(702) -- 1ZZ, etc
